@@ -18,4 +18,4 @@ https://vercel.com/guides/nextjs-prisma-postgres
 | ------------------- | ---------------------------------------------- |
 | npx prisma studio   | open Prisma Studio (GUI for modifying your db) |
 | npx prisma db push  | create new tables in your db                   |
-| npx prisma generate | Regenerate your Prisma Schema                  |
+| npx prisma generate | Regenerate Schema after it changed             |
