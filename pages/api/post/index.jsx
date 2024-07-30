@@ -9,7 +9,7 @@ export default async function handle(req, res) {
   console.log("---------------------------> AAA request", req);
 
   const session = await getSession({ req });
-  console.log("---------------------------> AAA session", session);
+console.log("---------------------------> AAA session", session);
   
   const result = await prisma.post.create({
     data: {
